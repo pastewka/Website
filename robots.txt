@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pastewka.github.io/Website/sitemap.xml
+Sitemap: https://pastewka.github.io/sitemap.xml
