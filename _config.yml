@@ -7,14 +7,14 @@ email: lars.pastewka@imtek.uni-freiburg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to the Simulation Group at the Department of Microsystems Engineering of the University of Freiburg
 footer_text: >
-  <img src="/Website/assets/img/universitaet-freiburg.png" height="25px"/>
+  <img src="/assets/img/universitaet-freiburg.png" height="25px"/>
 keywords: adhesion, friction, roughness, mechanics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://pastewka.github.io # the base hostname & protocol for your site
-baseurl: /Website # the subpath of your site, e.g. /blog/
+#baseurl: /Website # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -151,9 +151,8 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  people:
     output: true
-    permalink: /projects/:path/
 
 announcements:
   enabled: false
@@ -193,7 +192,6 @@ keep_files:
 plugins:
   - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-link-attributes
   - jekyll-minifier

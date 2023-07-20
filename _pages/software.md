@@ -23,6 +23,10 @@ description: Academic simulation tools and databases.
 
 [muSpectre](https://gitlab.com/muspectre/muspectre) is a spectral solver for homogeneization of continuum solid mechanical problems. The solver preconditioned the mechanical problem using FFTs, either in a strain- or a displacement-based formulation. We collaborate with [Jan Zeman](http://mech.fsv.cvut.cz/~zemanj/) of the Czech University in Prague on the development of FFT-accelerated solvers.
 
+## NuMPI
+
+[NuMPI](https://github.com/IMTEK-Simulation/NuMPI) is a library of MPI-parallel numerical tools. This includes parallel conjugate gradients and L-BFGS optimizers.
+
 ## USER-GFMD
 
 USER-GFMD is a plugin for the widely used molecular dynamics code LAMMPS that implements Green's function molecular dynamics. USER-GFMD is based on a code by [Martin Müser](https://www.lmp.uni-saarland.de/index.php/group/prof-dr-martin-muser/).
