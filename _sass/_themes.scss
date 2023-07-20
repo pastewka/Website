@@ -2,20 +2,34 @@
  * Themes
  ******************************************************************************/
 
+// University of Freiburg color scheme
+$ufr-blue: #344A9A;
+$ufr-blue80: #5D6BAD;
+$ufr-blue60: #868DC2;
+$ufr-blue40: #AFB1D8;
+$ufr-blue20: #D7D8EC;
+$ufr-darkblue: #00004a;
+$ufr-sand: #f6f1e3;
+$ufr-black: #000000;
+$ufr-white: #FFFFFF;
+$ufr-green: #00a082;
+$ufr-brown: #8f6b30;
+$ufr-yellow: #ffe863;
+$ufr-pink: #f5c2ed;
+
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$ufr-white};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
+  --global-text-color: #{$ufr-black};
+  --global-text-color-light: #{$ufr-blue40};
+  --global-theme-color: #{$ufr-blue};
+  --global-hover-color: #{$ufr-blue};
+  --global-hover-text-color: #{$ufr-white};
+  --global-footer-bg-color: #{$ufr-white};
+  --global-footer-text-color: #{$ufr-blue40};
+  --global-footer-link-color: #{$ufr-white};
   --global-divider-color: rgba(0,0,0,.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$ufr-white};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -58,7 +72,6 @@ html[data-theme='dark'] {
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
 

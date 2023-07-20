@@ -140,6 +140,7 @@ blockquote {
 @media (min-width: 576px) {
   .profile {
     width: 30%;
+    // width: 100%;
 
     .address {
       p {
@@ -486,16 +487,6 @@ footer.sticky-bottom {
         background-color: var(--global-theme-color);
       }
     }
-  }
-}
-
-
-// Distill
-
-.distill {
-  a:hover {
-    border-bottom-color: var(--global-theme-color);
-    text-decoration: none;
   }
 }
 
