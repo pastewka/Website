@@ -87,7 +87,7 @@
   role: PhD Student
   education:
     - MSc., Mechanical Engineering, Tsinghua University (2017)
-    #- MSc., Engineering Science, TU Berlin (2017)
+    - MSc., Engineering Science, TU Berlin (2017)
     #- BSc., Mechanical Engineering, Tsinghua University & TU Berlin (2017)
   image_path: johannes.png
   identifiers:
