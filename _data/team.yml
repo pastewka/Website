@@ -17,10 +17,18 @@
 - title: Dr.
   name: Andreas Greiner
   email: andreas.greiner@imtek.uni-freiburg.de
-  role: Scientific Staff
+  role: Principal Investigator
   education:
     - PhD, Physics, University of Stuttgart
   image_path: andreas.jpg
+- name: Stefanie Beysel
+  email: simulation@imtek.uni-freiburg.de
+  role: Administrative Assistant
+  image_path: stefanie.jpg
+- name: Sascha Frank
+  email: sascha.frank@imtek.uni-freiburg.de
+  role: Information Technology
+  image_path: sascha.jpg
 - title: Dr.
   name: Lucas Frérot
   email: lucas.frerot@imtek.uni-freiburg.de
@@ -85,11 +93,3 @@
   identifiers:
     google: j9n8S9QAAAAJ
     github: jotelha
-- name: Stefanie Beysel
-  email: simulation@imtek.uni-freiburg.de
-  role: Administrative Assistant
-  image_path: stefanie.jpg
-- name: Sascha Frank
-  email: sascha.frank@imtek.uni-freiburg.de
-  role: Information Technology
-  image_path: sascha.jpg
