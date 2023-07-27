@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Classes and teaching material.
+description: "<em>Teaching is an interruption, and so it's the greatest pain in the neck in the world.</em> — Richard P. Feynman"
 nav: true
 nav_order: 5
 ---

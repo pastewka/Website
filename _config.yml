@@ -151,7 +151,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  people:
+  team:
     output: true
 
 announcements:
@@ -177,7 +177,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ['_data', '_pages']
 exclude:
   - bin
   - Gemfile

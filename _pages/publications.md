@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Complete list of publications by the group.
+description: <em>I see no reason to address the - in any case erroneous - comments of your anonymous expert.</em> — Albert Einstein
 nav: true
 nav_order: 4
 ---

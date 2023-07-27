@@ -1,0 +1,95 @@
+- title: Prof.
+  name: Lars Pastewka
+  email: lars.pastewka@imtek.uni-freiburg.de
+  role: Principal Investigator
+  interests: Contact, adhesion, friction, roughness
+  education:
+    #- Postdoc, Physics, Johns Hopkins University (2011-2013)
+    - PhD, Physics, University of Freiburg (2010)
+    #- Dipl.-Ing., Microsystems Engineering, University of Freiburg (2005)
+    #- MSc., Physics, North Carolina State University (2003)
+  image_path: lars.png
+  identifiers:
+    orcid: 0000-0001-8351-7336
+    google: 9oWKrs4AAAAJ
+    github: pastewka
+    gitlab: pastewka
+- title: Dr.
+  name: Andreas Greiner
+  email: andreas.greiner@imtek.uni-freiburg.de
+  role: Scientific Staff
+  education:
+    - PhD, Physics, University of Stuttgart
+  image_path: andreas.jpg
+- name: Stefanie Beysel
+  email: simulation@imtek.uni-freiburg.de
+  role: Administrative Assistant
+  image_path: stefanie.jpg
+- title: Dr.
+  name: Lucas Frérot
+  email: lucas.frerot@imtek.uni-freiburg.de
+  role: Postdoc
+  education:
+    - PhD, Civil Engineering, EPFL (2020)
+    #- MSc., Civil Engineering, EPFL
+    #- BSc., Civil Engineering, EPFL
+  image_path: lucas.jpg
+  identifiers:
+    google: CX5Sw_AAAAAJ
+- title: Dr.
+  name: Hannes Holey
+  email: hannes.holey@kit.edu
+  role: Postdoc
+  education:
+    - PhD, Mechanical Engineering, KIT (2023)
+    #- MSc., Materials Science, KIT (2020)
+    #- BSc., Materials Science, KIT (2018)
+  image_path: hannes.jpg
+  identifiers:
+    google: 53-X1CEAAAAJ
+    github: hannes-holey
+- title: Dr.
+  name: Martin Ladecky
+  email: martin.ladecky@imtek.uni-freiburg.de
+  role: Postdoc
+  education:
+    - PhD, Civil Engineering, Czech Technical University in Prague (2023)
+    #- MSc., Civil Engineering, Czech Technical University in Prague (2019)
+    #- BSc., Civil Engineering, Czech Technical University in Prague (2017)
+  #image_path: hoa.jpg
+  identifiers:
+    google: -wXbq5EAAAAJ
+    github: MartinLadecky
+- name: Thi Hoa Le
+  email: thi.hoa.le@imtek.uni-freiburg.de
+  role: PhD Student
+  education: MSc., Computational Engineering, Ruhr University Bochum (2019)
+  #image_path: hoa.jpg
+- name: Ibrahim Ghanem
+  email: ibrahim.ghanem@imtek.uni-freiburg.de
+  role: PhD Student
+  education:
+    - MSc., Microsystems Engineering, University of Freiburg (2021)
+  #image_path: ibrahim.jpg
+- name: Indre Jödicke
+  email: indre.joedicke@imtek.uni-freiburg.de
+  role: PhD Student
+  education:
+    - MSc., Mechanical Engineering, KIT (2018)
+    #- BSc., Mechanical Engineering, KIT (2017)
+  #image_path: ibrahim.jpg
+- name: Johannes Hörmann
+  email: johannes.hoermann@imtek.uni-freiburg.de
+  role: PhD Student
+  education:
+    - MSc., Mechanical Engineering, Tsinghua University (2017)
+    #- MSc., Engineering Science, TU Berlin (2017)
+    #- BSc., Mechanical Engineering, Tsinghua University & TU Berlin (2017)
+  image_path: johannes.png
+  identifiers:
+    google: j9n8S9QAAAAJ
+    github: jotelha
+- name: Sascha Frank
+  email: sascha.frank@imtek.uni-freiburg.de
+  role: Information Technology
+  image_path: sascha.jpg

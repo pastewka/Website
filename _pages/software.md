@@ -4,7 +4,7 @@ permalink: /software/
 title: software
 nav: true
 nav_order: 4
-description: Academic simulation tools and databases.
+description: "<em>Be wise, discretize!</em> — Mark Kac"
 ---
 
 ## Atomistica
