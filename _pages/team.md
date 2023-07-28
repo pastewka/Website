@@ -12,13 +12,24 @@ nav_order: 2
 	{% for person in site.data.team %}
 		<li>
 			<div class="square-image">
-                <img src="/assets/img/{{ person.image_path }}" alt="{{ person.name }}"/>
+			    {% if person.image_path %}
+				    <div class="circular-inset">
+	                	<img src="/assets/img/{{ person.image_path }}" alt="{{ person.name }}"/>
+	                </div>
+	            {% else %}
+	                <div class="circle"></div>
+	            {% endif %}
             </div>
 			<h5>{{ person.title }} {{ person.name }}</h5>
 			<div class="role">{{ person.role }}</div>
 			<small>
-				<div class="role"><a href="mailto:{{ person.email }}">{{ person.email }}</a></div>
+				<div class="role"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>
 			</small>
+			{% if person.website %}
+				<small>
+					<div class="role"><i class="fa fa-globe" aria-hidden="true"></i> <a href="{{ person.website }}">{{ person.website }}</a></div>
+				</small>
+			{% endif %}
 			{% if person.education %}
 			    <h5 class="subsection">Education</h5>
 				{% for degree in person.education %}

@@ -19,15 +19,38 @@
         width: 100%;
         height: 200px;
         margin: auto auto auto auto;
-            img {
+            .circular-inset {
                 border-radius: 200px;
+                width: 200px;
                 height: 200px;
                 margin-left: auto;
                 margin-right: auto;
                 border-style: solid;
                 border-width: thin;
                 border-color: $ufr-black;
+                display: flex;
+
+                img {
+                    border-radius: 200px;
+                    height: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
+
+            .circle {
+                border-radius: 200px;
+                color: $ufr-black;
+                width: 200px;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                border-style: solid;
+                border-width: thin;
+                border-color: $ufr-black;
+                background-color: $ufr-sand;
+            }
+
         }
 
     .name {
