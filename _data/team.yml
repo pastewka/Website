@@ -39,7 +39,10 @@
     #- BSc., Civil Engineering, EPFL
   image_path: lucas.jpg
   identifiers:
+    orcid: 0000-0002-4138-1052
     google: CX5Sw_AAAAAJ
+    github: prs513rosewood
+    gitlab: prs513rosewood
   website: https://frerot.net/
 - title: Dr.
   name: Hannes Holey
