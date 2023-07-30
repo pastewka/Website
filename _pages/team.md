@@ -9,7 +9,11 @@ nav_order: 2
 
 <ul class="team">
 	
+	{% assign last_role = '' %}
 	{% for person in site.data.team %}
+	    {% if person.role != last_role %}
+	       <h2><span>{{ person.role }}</span></h2>
+	    {% endif %}
 		<li>
 			<div class="square-image">
 			    {% if person.image_path %}
@@ -20,8 +24,10 @@ nav_order: 2
 	                <div class="circle"></div>
 	            {% endif %}
             </div>
-			<h5>{{ person.title }} {{ person.name }}</h5>
-			<div class="role">{{ person.role }}</div>
+			<h5 class="name">{{ person.title }} {{ person.name }}</h5>
+		    {% if person.function %}
+				<div class="role">{{ person.function }}</div>
+            {% endif %}
 			<small>
 				<div class="role"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>
 			</small>
@@ -66,6 +72,7 @@ nav_order: 2
 				</div>
 			{% endif %}
 		</li>
+		{% assign last_role = person.role %}
 	{% endfor %}
 
 </ul>

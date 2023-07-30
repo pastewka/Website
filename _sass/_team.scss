@@ -53,12 +53,6 @@
 
         }
 
-    .name {
-        //font-size: 1.3em;
-        margin-top: 20px;
-        color: $ufr-black;
-    }
-
     .role {
         color: $ufr-blue;
     }
@@ -69,5 +63,10 @@
 
     .identifier {
         color: $ufr-blue;
+        white-space: nowrap;
+    }
+
+    .name {
+        font-weight: bold;
     }
 }

@@ -11,14 +11,14 @@ nav_order: 5
 
 We teach numerical techniques and their respective application to problems from science and engineering. In order to participate in our classes, we provide an [Ubuntu](https://ubuntulinux.org/) 16.04 LTS operating system image with all required software preinstalled. The image can be run in the computer labs (using [bwLehrpool](https://www.bwlehrpool.de/)) or on any other computer using a virtualization solution, for example [VirtualBox](https://www.virtualbox.org/). The image can be downloaded [here](https://nc.informatik.uni-freiburg.de/index.php/s/LzydLng2fBJeYYC) (Size: 9 GB, v1.1).
 
-## Current lectures
+## Current classes
 
 ### Summer term 2023
 High-Performance Computing: Fluid Mechanics with Python
 
 [High-Performance Computing: Molecular Dynamics with C++](https://pastewka.github.io/MolecularDynamics)
 
-## Historic lectures
+## Historic classes
 
 ### Winter term 2022/23
 Differential Equations (in German)
@@ -57,6 +57,7 @@ High-Performance Computing with Python
 Molecular Statics and Dynamics
 
 Simulation (in German)
+
 ### Winter term 2019/20
 Differential Equations (in German)
 

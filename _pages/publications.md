@@ -7,8 +7,34 @@ nav: true
 nav_order: 4
 ---
 
+## preprints
+
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+{% bibliography --file preprints %}
+
+</div>
+
+## journals
+
+<div class="publications">
+
+{% bibliography --file journals %}
+
+</div>
+
+## books and book chapters
+
+<div class="publications">
+
+{% bibliography --file book_chapters %}
+
+</div>
+
+## conferences
+
+<div class="publications">
+
+{% bibliography --file conferences %}
 
 </div>

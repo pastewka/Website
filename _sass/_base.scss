@@ -560,11 +560,13 @@ footer.sticky-bottom {
 
   h2.bibliography {
     color: var(--global-divider-color);
+    background-color: $ufr-white;
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+    display: block;
   }
 
   ol.bibliography {
@@ -1024,4 +1026,23 @@ nav[data-toggle="toc"] {
     margin-bottom: 0;
     padding-top: 0.5rem;
   }
+}
+
+
+h1 {
+  background-color: $ufr-blue20;
+  padding: 2px 5px 2px 5px;
+  display: inline;
+}
+
+h2 {
+  background-color: $ufr-sand;
+  padding: 2px 5px 2px 5px;
+  display: inline;
+}
+
+h3 {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: bold;  
 }
