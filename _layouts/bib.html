@@ -45,10 +45,16 @@
         </div>
 
         <!-- Journal/Book title and date -->
-        {% assign proceedings = "inproceedings,incollection" | split: ','%}
+        {% assign proceedings = "inproceedings,incollection,inbook" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
+        {% assign entrytype = nil %}
+        {% assign entryvolume = nil %}
+        {% assign entrypages = nil %}
+        {% assign entryyear = nil %}
         {% if entry.type == "article" -%}
           {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
+        {%- elsif entry.type == "book" -%}
+          {%- capture entrytype -%}{{entry.publisher}}{%- endcapture -%}
         {%- elsif proceedings contains entry.type -%}
           {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
         {%- elsif thesis contains entry.type -%}

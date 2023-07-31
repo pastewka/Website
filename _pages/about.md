@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.imtek.uni-freiburg.de/'>Department of Microsystems Engineering</a> | <a href='https://www.uni-freiburg.de/'>University of Freiburg</a>
+subtitle: <a href='https://www.imtek.uni-freiburg.de/'>Department of Microsystems Engineering (IMTEK)</a> | <a href='https://www.uni-freiburg.de/'>University of Freiburg</a>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
