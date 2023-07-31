@@ -38,7 +38,9 @@ journal_map = {
 	'computer physics communications': 'Comput. Phys. Commun.',
 	'mrs bulletin': 'MRS Bull.',
 	'applied mathematics and computation': 'Appl. Math. Comput.',
-	'the journal of chemical physics': 'J. Chem. Phys.'
+	'the journal of chemical physics': 'J. Chem. Phys.',
+	'mathematical and computer modelling of dynamical systems': 'Math. Comput. Model. Dyn. Syst.',
+	'journal of the european ceramic society': 'J. Eur. Ceram. Soc.',
 }
 
 def normalize_journal(title):
