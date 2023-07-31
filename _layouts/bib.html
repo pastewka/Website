@@ -71,6 +71,9 @@
         {%- if entry.year -%}
           {%- capture entryyear -%}{{ " " }}({{entry.year}}){%- endcapture -%}
         {%- endif -%}
+        {%- if entry.arxiv %}
+          {%- capture entrytype -%}<em>arXiv:</em>{{entry.arxiv}}{%- endcapture -%}
+        {%- endif -%}        
         {% assign entrytype_text = entrytype | strip_html | strip %}
         {%- capture periodical -%}{{ entrytype }}{{ entryvolume }}<span>{{ entrypages }}{{ entryyear }}</span>{%- endcapture -%}
         <div class="periodical">

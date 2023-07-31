@@ -1,6 +1,7 @@
 import json
 import html
 import re
+import requests
 
 import bibtexparser
 from crossref.restful import Works
@@ -41,6 +42,7 @@ journal_map = {
 	'the journal of chemical physics': 'J. Chem. Phys.',
 	'mathematical and computer modelling of dynamical systems': 'Math. Comput. Model. Dyn. Syst.',
 	'journal of the european ceramic society': 'J. Eur. Ceram. Soc.',
+	'applied surface science advances': 'Appl. Surf. Sci. Adv.',
 }
 
 def normalize_journal(title):
@@ -49,6 +51,21 @@ def normalize_journal(title):
 		return journal_map[normalized_title]
 	else:
 		return title
+
+
+def find_pdf_link(crossref):
+	if 'link' in crossref:
+		for link in crossref['link']:
+			if link['content-type'] == 'application/pdf' or \
+				link['URL'].endswith('fulltext') or \
+				link['URL'].find('pdf') >= 0:
+				return link['URL']
+	if 'resource' in crossref:
+		url = crossref['resource']['primary']['URL']
+		if url.startswith('https://linkinghub.elsevier.com'):
+			elsevier_id, = crossref['alternative-id'] 
+			return f'https://www.sciencedirect.com/science/article/pii/{elsevier_id}/pdf'
+	return None
 
 
 def match_crossref(libentry, crossref, libkey, crkey, normalize=lambda x: html.unescape(x).lower(),
@@ -134,6 +151,10 @@ for entry in library.entries:
 				author_str = author_str[:-5]
 				if entry['author'] != author_str:
 					print(f"    WARNING: Author mismatch: {entry['author']} != {author_str}")
-					#entry.set_field(bibtexparser.model.Field('author', author_str))	
+					#entry.set_field(bibtexparser.model.Field('author', author_str))
+
+			pdf_link = find_pdf_link(crossref)
+			if pdf_link is not None:
+				entry.set_field(bibtexparser.model.Field('pdf', pdf_link))
 
 bibtexparser.write_file('tmp.bib', library)
