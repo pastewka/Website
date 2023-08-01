@@ -21,6 +21,8 @@
   education:
     - PhD, Physics, University of Stuttgart
   image_path: andreas.jpg
+  identifiers:
+    google: MxFEYXgAAAAJ
 - name: Stefanie Beysel
   email: simulation@imtek.uni-freiburg.de
   role: administration
@@ -56,6 +58,7 @@
     #- BSc., Materials Science, KIT (2018)
   image_path: hannes.jpg
   identifiers:
+    orcid: 0000-0002-4547-8791
     google: 53-X1CEAAAAJ
     github: hannes-holey
 - title: Dr.
@@ -68,6 +71,7 @@
     #- BSc., Civil Engineering, Czech Technical University in Prague (2017)
   #image_path: hoa.jpg
   identifiers:
+    orcid: 0000-0002-1337-7603
     google: -wXbq5EAAAAJ
     github: MartinLadecky
     gitlab: MartinLadecky
@@ -98,5 +102,6 @@
     #- BSc., Mechanical Engineering, Tsinghua University & TU Berlin (2017)
   image_path: johannes.png
   identifiers:
+    orcid: 0000-0001-5867-695X
     google: j9n8S9QAAAAJ
     github: jotelha
