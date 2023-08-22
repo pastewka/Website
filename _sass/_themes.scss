@@ -2,20 +2,7 @@
  * Themes
  ******************************************************************************/
 
-// University of Freiburg color scheme
-$ufr-blue: #344A9A;
-$ufr-blue80: #5D6BAD;
-$ufr-blue60: #868DC2;
-$ufr-blue40: #AFB1D8;
-$ufr-blue20: #D7D8EC;
-$ufr-darkblue: #00004a;
-$ufr-sand: #f6f1e3;
-$ufr-black: #000000;
-$ufr-white: #FFFFFF;
-$ufr-green: #00a082;
-$ufr-brown: #8f6b30;
-$ufr-yellow: #ffe863;
-$ufr-pink: #f5c2ed;
+/*$font-family-sans-serif: "Helvetica Neue", Arial, sans-serif !default;*/
 
 :root {
   --global-bg-color: #{$ufr-white};

@@ -5,7 +5,7 @@
 title: IMTEK Simulation # the website title (if blank, full name will be used instead)
 email: lars.pastewka@imtek.uni-freiburg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Welcome to the Simulation Group at the Department of Microsystems Engineering of the University of Freiburg
+  Welcome to the Simulation Group at the Department of Microsystems Engineering (IMTEK) of the University of Freiburg
 footer_text: >
   <img src="/assets/img/universitaet-freiburg.png" height="25px"/>
 keywords: adhesion, friction, roughness, mechanics  # add your own keywords or leave empty
@@ -13,7 +13,7 @@ keywords: adhesion, friction, roughness, mechanics  # add your own keywords or l
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://pastewka.github.io # the base hostname & protocol for your site
+url: https://pastewka.org/ # the base hostname & protocol for your site
 #baseurl: /Website # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -247,6 +247,8 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  sort_by: title
+  sort_order: ascending
 
 badges: # Display different badges for your publications
   altmetric_badge: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
