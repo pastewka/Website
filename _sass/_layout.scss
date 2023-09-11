@@ -35,23 +35,6 @@ body.sticky-bottom-footer {
 
 // TODO: redefine content layout.
 
-.floating-menu {
-  background: $ufr-blue20;
-  padding: 5px;;
-  width: 20rem;
-  z-index: 100;
-  position: fixed;
-  top: 80px;
-  right: 20px;
-
-  .name {
-    font-weight: bold;
-    font-size: 1rem;
-    margin-bottom: 0;
-  }
-}
-
-
 /******************************************************************************
  * Publications
  ******************************************************************************/

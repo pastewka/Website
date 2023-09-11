@@ -1050,3 +1050,30 @@ h3 {
   font-size: 20px;
   font-weight: bold;  
 }
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  padding: 10px;
+  width: 20rem;
+  z-index: 100;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+
+  .name {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  .sidebar {
+    display: none;
+  }
+}
+
