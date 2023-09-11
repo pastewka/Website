@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: "<em>Teaching is an interruption, and so it's the greatest pain in the neck in the world.</em> — Richard P. Feynman"
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## Software environment for teaching

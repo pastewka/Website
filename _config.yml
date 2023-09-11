@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: IMTEK Simulation # the website title (if blank, full name will be used instead)
+title: simulation group # the website title (if blank, full name will be used instead)
 email: lars.pastewka@imtek.uni-freiburg.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to the Simulation Group at the Department of Microsystems Engineering (IMTEK) of the University of Freiburg

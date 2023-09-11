@@ -710,7 +710,9 @@ footer.sticky-bottom {
       }
 
       div.abstract.hidden.open {
+        margin: 15px;
         border-color: var(--global-text-color);
+        background-color: $ufr-sand;
       }
     }
   }

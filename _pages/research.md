@@ -4,7 +4,7 @@ title: research
 permalink: /research/
 description: "<em>There’s no such thing as the unknown - only things temporarily hidden, temporarily not understood.</em> — James Tiberius Kirk"
 nav: true
-nav_order: 3
+nav_order: 4
 display_categories: [work, fun]
 horizontal: false
 ---

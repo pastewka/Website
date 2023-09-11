@@ -4,7 +4,7 @@ permalink: /team/
 title: team
 description: "<em>I can’t believe what a bunch of nerds we are.</em> — Michael"
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <ul class="team">
@@ -37,7 +37,6 @@ nav_order: 2
 				</small>
 			{% endif %}
 			{% if person.education %}
-			    <h5 class="subsection">Education</h5>
 				{% for degree in person.education %}
 					<div class="degree">{{ degree }}</div>
 				{% endfor %}
