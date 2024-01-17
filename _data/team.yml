@@ -7,7 +7,7 @@
     #- postdocs, Physics, Johns Hopkins University (2011-2013)
     - PhD, Physics, University of Freiburg (2010)
     #- Dipl.-Ing., Microsystems Engineering, University of Freiburg (2005)
-    #- MSc., Physics, North Carolina State University (2003)
+    #- MSc, Physics, North Carolina State University (2003)
   image_path: lars.png
   identifiers:
     orcid: 0000-0001-8351-7336
@@ -23,6 +23,75 @@
   image_path: andreas.jpg
   identifiers:
     google: MxFEYXgAAAAJ
+- title: Dr.
+  name: Hannes Holey
+  email: hannes.holey@kit.edu
+  role: postdocs
+  education:
+    - PhD, Mechanical Engineering, KIT (2023)
+    #- MSc, Materials Science, KIT (2020)
+    #- BSc, Materials Science, KIT (2018)
+  image_path: hannes.jpg
+  identifiers:
+    orcid: 0000-0002-4547-8791
+    google: 53-X1CEAAAAJ
+    github: hannes-holey
+- title: Dr.
+  name: Martin Ladecky
+  email: martin.ladecky@imtek.uni-freiburg.de
+  role: postdocs
+  education:
+    - PhD, Civil Engineering, Czech Technical University in Prague (2023)
+    #- MSc, Civil Engineering, Czech Technical University in Prague (2019)
+    #- BSc, Civil Engineering, Czech Technical University in Prague (2017)
+  #image_path: hoa.jpg
+  identifiers:
+    orcid: 0000-0002-1337-7603
+    google: -wXbq5EAAAAJ
+    github: MartinLadecky
+    gitlab: MartinLadecky
+- name: Thi Hoa Le
+  email: thi.hoa.le@imtek.uni-freiburg.de
+  role: PhD students
+  education: MSc, Computational Engineering, Ruhr University Bochum (2019)
+  #image_path: hoa.jpg
+- name: Ibrahim Ghanem
+  email: ibrahim.ghanem@imtek.uni-freiburg.de
+  role: PhD students
+  education:
+    - MSc, Microsystems Engineering, University of Freiburg (2021)
+  #image_path: ibrahim.jpg
+- name: Indre Jödicke
+  email: indre.joedicke@imtek.uni-freiburg.de
+  role: PhD students
+  education:
+    - MSc, Mechanical Engineering, KIT (2018)
+    #- BSc, Mechanical Engineering, KIT (2017)
+  #image_path: ibrahim.jpg
+- name: Johannes Hörmann
+  email: johannes.hoermann@imtek.uni-freiburg.de
+  role: PhD students
+  education:
+    - MSc, Mechanical Engineering, Tsinghua University (2017)
+    - MSc, Engineering Science, TU Berlin (2017)
+    #- BSc, Mechanical Engineering, Tsinghua University & TU Berlin (2017)
+  image_path: johannes.png
+  identifiers:
+    orcid: 0000-0001-5867-695X
+    google: j9n8S9QAAAAJ
+    github: jotelha
+- name: Mahdi Roshani
+  email: mahdi.roshani@livmats.uni-freiburg.de
+  role: PhD students
+  education:
+    - MSc, Systems Engineering, University of Tehran (2022)
+    #- BSc, Mechanical Engineering, KIT (2017)
+  #image_path: ibrahim.jpg
+- name: Yizhen Wang
+  email: yizhen.wang@imtek.uni-freiburg.de
+  role: PhD students
+  education:
+    - MSc, Microsystems Engineering, University of Freiburg (2023)
 - name: Stefanie Beysel
   email: simulation@imtek.uni-freiburg.de
   role: administration
@@ -35,73 +104,17 @@
   image_path: sascha.jpg
 - title: Dr.
   name: Lucas Frérot
-  email: lucas.frerot@imtek.uni-freiburg.de
-  role: postdocs
-  education:
-    - PhD, Civil Engineering, EPFL (2020)
-    #- MSc., Civil Engineering, EPFL
-    #- BSc., Civil Engineering, EPFL
-  image_path: lucas.jpg
-  identifiers:
-    orcid: 0000-0002-4138-1052
-    google: CX5Sw_AAAAAJ
-    github: prs513rosewood
-    gitlab: prs513rosewood
+  current: Maître de Conférences, Institut ∂'Alembert, Sorbonne University
+  role: alumni
   website: https://frerot.net/
 - title: Dr.
-  name: Hannes Holey
-  email: hannes.holey@kit.edu
-  role: postdocs
-  education:
-    - PhD, Mechanical Engineering, KIT (2023)
-    #- MSc., Materials Science, KIT (2020)
-    #- BSc., Materials Science, KIT (2018)
-  image_path: hannes.jpg
-  identifiers:
-    orcid: 0000-0002-4547-8791
-    google: 53-X1CEAAAAJ
-    github: hannes-holey
+  name: Richard Jana
+  current: Postdoc, Aalto University
+  role: alumni
+  website: https://research.aalto.fi/en/persons/richard-jana
 - title: Dr.
-  name: Martin Ladecky
-  email: martin.ladecky@imtek.uni-freiburg.de
-  role: postdocs
-  education:
-    - PhD, Civil Engineering, Czech Technical University in Prague (2023)
-    #- MSc., Civil Engineering, Czech Technical University in Prague (2019)
-    #- BSc., Civil Engineering, Czech Technical University in Prague (2017)
-  #image_path: hoa.jpg
-  identifiers:
-    orcid: 0000-0002-1337-7603
-    google: -wXbq5EAAAAJ
-    github: MartinLadecky
-    gitlab: MartinLadecky
-- name: Thi Hoa Le
-  email: thi.hoa.le@imtek.uni-freiburg.de
-  role: PhD students
-  education: MSc., Computational Engineering, Ruhr University Bochum (2019)
-  #image_path: hoa.jpg
-- name: Ibrahim Ghanem
-  email: ibrahim.ghanem@imtek.uni-freiburg.de
-  role: PhD students
-  education:
-    - MSc., Microsystems Engineering, University of Freiburg (2021)
-  #image_path: ibrahim.jpg
-- name: Indre Jödicke
-  email: indre.joedicke@imtek.uni-freiburg.de
-  role: PhD students
-  education:
-    - MSc., Mechanical Engineering, KIT (2018)
-    #- BSc., Mechanical Engineering, KIT (2017)
-  #image_path: ibrahim.jpg
-- name: Johannes Hörmann
-  email: johannes.hoermann@imtek.uni-freiburg.de
-  role: PhD students
-  education:
-    - MSc., Mechanical Engineering, Tsinghua University (2017)
-    - MSc., Engineering Science, TU Berlin (2017)
-    #- BSc., Mechanical Engineering, Tsinghua University & TU Berlin (2017)
-  image_path: johannes.png
-  identifiers:
-    orcid: 0000-0001-5867-695X
-    google: j9n8S9QAAAAJ
-    github: jotelha
+  name: Antoine Sanner
+  current: Postdoc, ETH Zürich
+  role: alumni
+  website: https://ifb.ethz.ch/compmech/the-chair/people/person-detail.MzIxMTE3.TGlzdC80ODUyLDEzNTM4NzUzMzg=.html
+
