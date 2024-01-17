@@ -55,11 +55,22 @@
 
         }
 
+    .image-placeholder {
+        grid-row: 1 / span 12;
+        width: 100%;
+        height: 10px;
+    }
+
     .role {
         color: $ufr-blue;
     }
 
     .degree {
+        color: $ufr-blue;
+        margin-top: 0.25rem;
+    }
+
+    .current {
         color: $ufr-blue;
         margin-top: 0.25rem;
     }

@@ -15,26 +15,35 @@ nav_order: 3
 	       <h2><span>{{ person.role }}</span></h2>
 	    {% endif %}
 		<li>
-			<div class="square-image">
-			    {% if person.image_path %}
-				    <div class="circular-inset">
-	                	<img src="/assets/img/{{ person.image_path }}" alt="{{ person.name }}"/>
-	                </div>
-	            {% else %}
-	                <div class="circle"></div>
-	            {% endif %}
-            </div>
+            {% if person.role == 'alumni' %}
+                <div class="image-placeholder"></div>
+            {% else %}
+				<div class="square-image">
+				    {% if person.image_path %}
+					    <div class="circular-inset">
+		                	<img src="/assets/img/{{ person.image_path }}" alt="{{ person.name }}"/>
+		                </div>
+		            {% else %}
+	                	<div class="circle"></div>
+		            {% endif %}
+	            </div>
+            {% endif %}
 			<h5 class="name">{{ person.title }} {{ person.name }}</h5>
 		    {% if person.function %}
 				<div class="role">{{ person.function }}</div>
             {% endif %}
+            {% if person.email %}
 			<small>
 				<div class="role"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></div>
 			</small>
+			{% endif %}
 			{% if person.website %}
 				<small>
 					<div class="role"><i class="fa fa-globe" aria-hidden="true"></i> <a href="{{ person.website }}">{{ person.website }}</a></div>
 				</small>
+			{% endif %}
+			{% if person.current %}
+			    <div class="current">{{ person.current }}</div>
 			{% endif %}
 			{% if person.education %}
 				{% for degree in person.education %}
