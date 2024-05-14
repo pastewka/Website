@@ -24,19 +24,6 @@
   identifiers:
     google: MxFEYXgAAAAJ
 - title: Dr.
-  name: Hannes Holey
-  email: hannes.holey@kit.edu
-  role: postdocs
-  education:
-    - PhD, Mechanical Engineering, KIT (2023)
-    #- MSc, Materials Science, KIT (2020)
-    #- BSc, Materials Science, KIT (2018)
-  image_path: hannes.jpg
-  identifiers:
-    orcid: 0000-0002-4547-8791
-    google: 53-X1CEAAAAJ
-    github: hannes-holey
-- title: Dr.
   name: Martin Ladecky
   email: martin.ladecky@imtek.uni-freiburg.de
   role: postdocs
@@ -104,17 +91,22 @@
   image_path: sascha.jpg
 - title: Dr.
   name: Lucas Frérot
-  current: Maître de Conférences, Institut ∂'Alembert, Sorbonne University
+  current: Maître de Conférences, Institute Jean le Rond d'Alembert, Sorbonne Université
   role: alumni
   website: https://frerot.net/
 - title: Dr.
+  name: Hannes Holey
+  current: Postdoc, Università degli Studi di Milano Statale
+  role: alumni
+  website: https://www.unimi.it/en/ugov/person/hannes-holey
+- title: Dr.
   name: Richard Jana
-  current: Postdoc, Aalto University
+  current: Postdoc, Aalto Yliopisto
   role: alumni
   website: https://research.aalto.fi/en/persons/richard-jana
 - title: Dr.
   name: Antoine Sanner
   current: Postdoc, ETH Zürich
   role: alumni
-  website: https://ifb.ethz.ch/compmech/the-chair/people/person-detail.MzIxMTE3.TGlzdC80ODUyLDEzNTM4NzUzMzg=.html
+  website: https://baug.ethz.ch/departement/personen/mitarbeiter/personen-detail.MzIxMTE3.TGlzdC82NzksLTU1NTc1NDEwMQ==.html
 
